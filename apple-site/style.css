@@ -165,6 +165,7 @@ padding-top: 15px;
  footer {
   background-color: lightgray;
   padding-left: 10%;
+  color: black;
  }        
 div.col {
   width: 15%;
@@ -176,6 +177,7 @@ div.site-map a {
   padding-top: 5px;
   text-align: left;
   font-size: 12px;
+  color: gray;
 }
 div.site-map h5 {
   font-size: 14px;
@@ -195,6 +197,7 @@ div.last-line {
 div.last-line a {
   padding-left: 10px;
   padding-right: 10px;
+  color: gray;
 }
 div.last-line a:not(:first-of-type){
   border-left: 1px solid darkgray;
