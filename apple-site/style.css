@@ -102,7 +102,6 @@ table {
   font-weight: 100;
 }
 body {
-  width: 1100px;
   font-family: "Myriad Set Pro";
 }
 header > nav {
@@ -140,15 +139,15 @@ div.hero a {
   padding-top: 15px;
   font-size: 18px;
 }
-div.hero a:first-child {
+.hero a:first-child {
   margin-right: 10px;
 }
-div.subhero a {
+.subhero a {
   width: 25%;
   display: inline-block;
   height: 80px;
 }
-div.subhero a img {
+.subhero a img {
   width: 100%;
   height: 200px;
   object-fit: none;
@@ -158,47 +157,49 @@ div a {
 text-align: center;
 padding-top: 15px;
 }   
- div.recall {
+ .recall {
   text-align: center;
   padding: 15px;
  }     
  footer {
   background-color: lightgray;
-  padding-left: 10%;
   color: black;
+container {
+  max-width: 1100px;
+}
  }        
-div.col {
+.col {
   width: 15%;
   display: inline-block;
   vertical-align: top;
 }   
-div.site-map a {
+.site-map a {
   display: block;
   padding-top: 5px;
   text-align: left;
   font-size: 12px;
   color: gray;
 }
-div.site-map h5 {
+.site-map h5 {
   font-size: 14px;
 }
-div.ending {
+.ending {
   padding-top: 20px;
   color: gray;
 }
-div.copyright {
+.copyright {
   padding-top: 20px;
   color: gray;
 }
-div.last-line {
+.last-line {
   margin-top: 20px;
   color: gray;
 }
-div.last-line a {
+.last-line a {
   padding-left: 10px;
   padding-right: 10px;
   color: gray;
 }
-div.last-line a:not(:first-of-type){
+.last-line a:not(:first-of-type){
   border-left: 1px solid darkgray;
 }
