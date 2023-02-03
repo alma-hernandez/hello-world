@@ -17,7 +17,18 @@
 .hero h5 {
  color: red;
 }
-.content {
+.subhero {
  width: 100%;
  text-align: center;
+}
+.subhero h5 {
+ color: red;
+}
+.col-sm-2 .content {
+text-align: center;
+font-size: 30px;
+}
+li {
+ font-size: 20px;
+ padding-top: 20px;
 }
