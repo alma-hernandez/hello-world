@@ -1,0 +1,19 @@
+.hero {
+ position: relative;
+}
+
+.title {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ text-align: center;
+ background-image: linear-gradient(rgba(255, 255, 255, 0.7), white);
+ border-top: red 2px solid;
+}
+
+.hero img {
+ width:100%;
+}
+.hero h5 {
+ color: red;
+}
