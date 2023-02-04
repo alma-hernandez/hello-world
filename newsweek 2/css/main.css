@@ -32,6 +32,18 @@ li {
  font-size: 20px;
  padding-top: 20px;
 }
+li:not(:last-child){
+ border-bottom: solid gray 1px;
+}
+
+.sponsored {
+ background-color: rgb(230, 255, 255);
+ padding-bottom: 40px;
+}
+.sponsored h5 {
+ color: rgb(86, 236, 236);
+}
 .content {
  color: red;
+ font-size: 35px;
 }
