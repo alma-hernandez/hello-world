@@ -11,7 +11,7 @@
  border-top: red 2px solid;
 }
 
-.hero img {
+img {
  width:100%;
 }
 .hero h5 {
@@ -31,4 +31,7 @@ font-size: 30px;
 li {
  font-size: 20px;
  padding-top: 20px;
+}
+.content {
+ color: red;
 }
