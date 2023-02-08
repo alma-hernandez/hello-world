@@ -3,14 +3,17 @@
 }
 
 .title {
- position: absolute;
- bottom: 0;
  width: 100%;
  text-align: center;
  background-image: linear-gradient(rgba(255, 255, 255, 0.7), white);
  border-top: red 2px solid;
 }
-
+@media (min-width: 768px) {
+ .title {
+  position: absolute;
+  bottom: 0;
+ }
+}
 img {
  width:100%;
 }
@@ -35,7 +38,6 @@ li {
 li:not(:last-child){
  border-bottom: solid gray 1px;
 }
-
 .sponsored {
  background-color: rgb(230, 255, 255);
  padding-bottom: 40px;
