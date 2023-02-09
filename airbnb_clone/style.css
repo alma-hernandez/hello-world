@@ -47,3 +47,9 @@
   font-weight: 300;
   border-radius: 0;
 }
+#searchForm .btn-danger {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background: #FF5A5F;
+  border-color: #FF5A5F;
+}
