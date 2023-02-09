@@ -16,3 +16,11 @@
  padding: 12px 0;
  font-weight: 300;
 }
+#hero {
+ background-image: url(./images/mainphoto2.avif);
+ background-size: cover;
+ background-position: center bottom;
+}
+#hero h2 {
+ padding-top: 168px;
+}
