@@ -43,37 +43,43 @@
   </nav>
   <div id="hero">
     <div class="container-fluid">
-      <h2 class="pb-3 pb-sm-4 text-white">Book unique homes and experiences.</h2>
+      <h2 class="mb-0 pb-3 pb-sm-4 text-white d-xl-none">Book unique homes and experiences.</h2>
+       
     </div>
   </div>
   <div id="searchForm">
-    <div class="container-fluid">
-      <form class="py-4">
-        <div class="form-group">
-          <label for="where"><small><b>WHERE</b></small></label>
-          <input type="text" class="form-control form-control-lg rounded" id="where" placeholder="Anywhere">
-        </div>
-        <div class="row no-gutters">
-          <div class="form-group col-6">
-            <label for="checkin"><small><b>CHECK IN</b></small></label>
-            <input type="date" class="form-control form-control-lg rounded-left" id="checkin" placeholder="mm/dd/yyyy">
+    <div class="d-flex flex-column align-items-xl-end">
+      <div class="container-fluid">
+        <form class="py-4 bg-white">
+          <h2 class="d-none d-xl-block">Book unique homes and experiences.</h2>
+          <div class="form-group">
+            <label for="where"><small><b>WHERE</b></small></label>
+            <input type="text" class="form-control form-control-lg rounded" id="where" placeholder="Anywhere">
           </div>
-          <div class="form-group col-6">
-            <label for="checkout"><small><b>CHECK OUT</b></small></label>
-            <input type="date" class="form-control form-control-lg rounded-right border-left-0" id="checkout" placeholder="mm/dd/yyyy">
+          <div class="row no-gutters">
+            <div class="form-group col-6">
+              <label for="checkin"><small><b>CHECK IN</b></small></label>
+              <input type="date" class="form-control form-control-lg rounded-left" id="checkin"
+                placeholder="mm/dd/yyyy">
+            </div>
+            <div class="form-group col-6">
+              <label for="checkout"><small><b>CHECK OUT</b></small></label>
+              <input type="date" class="form-control form-control-lg rounded-right border-left-0" id="checkout"
+                placeholder="mm/dd/yyyy">
+            </div>
           </div>
-        </div>
-        <div class="form-group">
-          <label for="guests"><small><b>GUESTS</b></small></label>
-          <select class="form-control form-control-lg rounded" id="guests">
-            <option>1 guest</option>
-            <option>2 guest</option>
-          </select>
-        </div>
-        <div class="d-flex flex-column">
-          <button type="submit" class="btn btn-danger px-4 py-2 mt-2">Search</button>
-        </div>
-      </form>
+          <div class="form-group">
+            <label for="guests"><small><b>GUESTS</b></small></label>
+            <select class="form-control form-control-lg rounded" id="guests">
+              <option>1 guest</option>
+              <option>2 guest</option>
+            </select>
+          </div>
+          <div class="d-flex flex-column align-items-xl-end">
+            <button type="submit" class="btn btn-danger px-4 py-2 mt-2">Search</button>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
   <!-- JavaScript, you need this for the drop down buttons to work -->

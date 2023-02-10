@@ -3,6 +3,25 @@
    display: none !important;
  }
 }
+@media (min-width: 1200px) {
+  #searchForm {
+    position: absolute;
+    top: 120px;
+    width: 100%;
+  }
+  #searchForm form {
+    padding: 32px;
+    box-shadow: 0 16px 40px rgba(0,0,0,0.12);
+    max-width: 441px;
+  }
+  #searchForm .container-fluid {
+    max-width: 1080px;
+  }
+  #hero {
+    height: 100vh;
+    min-height: 650px;
+  }
+}
 #xlNavbar .navbar-brand, #navbarMenuToggler, #xlNavbar .nav-link {
  line-height: 80px;
 }
