@@ -9,6 +9,15 @@
     top: 120px;
     width: 100%;
   }
+  @media (min-width: 1200px) {
+    #xlNavbar .nav-link div:hover {
+      border-bottom: 2px solid #fff;
+    }
+  }
+  #message {
+    bottom: 0;
+    right: 0;
+  }
   #searchForm form {
     padding: 32px;
     box-shadow: 0 16px 40px rgba(0,0,0,0.12);
