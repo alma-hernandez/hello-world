@@ -110,3 +110,27 @@
     font-size: 13px;
   }
 }
+.scrollableRow {
+  overflow-x: scroll;
+  margin-left: -24px;
+  margin-right: -24px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.scrollableRow > [class*=col-] {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.scrollableRow .filler {
+  min-width: 18px;
+}
+.review .description {
+  line-height: 18px;
+  max-height: 60px;
+  overflow: hidden;
+  /* using line clamp */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipses;
+}
