@@ -20,7 +20,9 @@
   #xlNavbar .nav-link {
     font-size: 14px;
   }
-
+  .container-fluid {
+    max-width: 1080px;
+  }
   #searchForm {
     position: absolute;
     top: 120px;
@@ -36,10 +38,6 @@
     padding: 32px;
     box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
     max-width: 441px;
-  }
-
-  #searchForm .container-fluid {
-    max-width: 1080px;
   }
 
   #hero {
@@ -102,5 +100,13 @@
     padding-bottom: 12px;
     background: #FF5A5F;
     border-color: #FF5A5F;
+  }
+}
+@media (max-width: 767px) {
+  .headings h4 {
+    font-size: 18px;
+  }
+  .headings p {
+    font-size: 13px;
   }
 }
