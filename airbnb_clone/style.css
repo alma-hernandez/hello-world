@@ -1,5 +1,5 @@
 @media (min-width: 1200px) {
-  #navbarMenu {
+#navbarMenu {
     display: none !important;
   }
 
@@ -21,8 +21,43 @@
     font-size: 14px;
   }
 
-  .container-fluid {
-    max-width: 1080px;
+  #navbarMenu .nav-link {
+    color: #333;
+  }
+
+  #navbarMenuToggler {
+    color: rgb(255, 90, 95);
+    transition: color 0.25s;
+    z-index: 1;
+  }
+
+  #navbarMenuToggler.collapsed {
+    color: #fff;
+  }
+
+ 
+
+  #navbarMenu {
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 88px;
+  }
+
+  #navbarMenu .nav-link {
+    padding: 12px 0;
+  }
+}
+
+
+  #hero {
+    background-image: url(./images/mainphoto2.avif);
+    background-size: cover;
+    background-position: center bottom;
+  }
+
+  #hero h2 {
+    padding-top: 168px;
   }
 
   #searchForm {
@@ -36,59 +71,17 @@
     right: 0;
   }
 
+  @media (min-width: 1200px) {
+    #hero {
+      height: 100vh;
+      min-height: 650px;
+    }
+  }
+
   #searchForm form {
     padding: 32px;
     box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
     max-width: 441px;
-  }
-
-  #hero {
-    height: 100vh;
-    min-height: 650px;
-  }
-
-
-  #navbarMenuToggler,
-  #navbarMenu .nav-link {
-    color: #333;
-  }
-
-  #navbarMenu .nav-link {
-    padding: 12px 0;
-    font-weight: 300;
-  }
-
-  #hero {
-    background-image: url(./images/mainphoto2.avif);
-    background-size: cover;
-    background-position: center bottom;
-  }
-
-  #hero h2 {
-    padding-top: 168px;
-  }
-
-  #navbarMenu {
-    top: 0;
-    left: 0;
-    right: 0;
-    padding-top: 88px;
-  }
-
-  #navbarMenuToggler {
-    color: rgb(255, 90, 95);
-    transition: color 0.25s;
-    z-index: 1;
-  }
-
-  #navbarMenuToggler.collapsed {
-    color: #fff;
-  }
-
-  .container-fluid,
-  .container {
-    padding-left: 24px;
-    padding-right: 24px;
   }
 
   #searchForm .form-control {
@@ -102,6 +95,13 @@
     padding-bottom: 12px;
     background: #FF5A5F;
     border-color: #FF5A5F;
+  }
+}
+@media (min-width: 1200px) {
+  #searchForm {
+    position: absolute;
+    top: 120px;
+    width: 100%;
   }
 }
 
@@ -132,8 +132,17 @@
   min-width: 18px;
 }
 
-.review .description {
+.aspectRatioBox {
+  padding-top: calc(2 / 3 * 100%);
+  background-size: cover;
+  background-position: center;
+}
+
+.description {
   line-height: 18px;
+}
+
+.review .description {
   max-height: 60px;
   overflow: hidden;
   /* using line clamp */
@@ -203,4 +212,19 @@
 .listingsLink {
   color: #008489;
   font-size: 17px;
+}
+.overlay {
+  top: 0;
+  background-color: rgba(0, 255, 255, 0.3);
+}
+/* ----------- Call to action ----------- */
+@media (max-width: 767px) {
+  .callToAction.headings p {
+    font-size: 1rem;
+  }
+}
+.callToAction button {
+  background-color: #008489;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
