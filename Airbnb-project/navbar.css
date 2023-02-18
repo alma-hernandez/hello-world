@@ -1,10 +1,7 @@
 .navbar-brand {
  flex-grow: 1;
 }
+.navbar-brand img {
+ height: 40px;
+}
 
-.latest {
- margin-top: 60px;
-}
-.follow-us {
- text-align: right;
-}
