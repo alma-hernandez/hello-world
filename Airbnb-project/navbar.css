@@ -1,13 +1,55 @@
+
+.font-newschool {
+ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 .navbar-brand {
  flex-grow: 1;
 }
+
+.navbar-brand {
+ font-weight: bold;
+}
+
 .navbar-brand img {
  height: 40px;
 }
 
+.navbar-nav {
+ font-weight: bold;
+}
+
+.nav-item {
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.navbar-nav {
+text-align: right;
+}
+
+.btn {
+ flex-grow: 1;
+ margin: 0;
+}
+
+.hero {
+padding-top: 40px;
+}
+
 .hero-title {
  padding-left: 120px;
- font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ padding-top: 200px;;
+ }
+
+.hero-image {
+ margin:0%;
+ padding:0%;
+ position: relative;
+} 
+
+ .read-more {
+  background: red;
  }
 
  

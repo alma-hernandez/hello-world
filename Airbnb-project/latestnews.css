@@ -1,10 +1,22 @@
 
-
 .latest-news {
- padding-top: 50px;
+ padding-left: 80px;
+ padding-right: 80px;
 }
+
+.col-6 {
+ padding: 25px;
+}
+
 .follow-us {
  padding-top: 150px;
+ padding-bottom: 25px;
 }
+
+.travel-info {
+ padding-bottom: 25px;
+}
+
+
 
 
