@@ -1,0 +1,15 @@
+.categories {
+ margin-top: 35px;
+}
+
+.categories button {
+ display: inline-block;
+ padding: 20px;
+ height: 15px;
+ border-radius: 35%;
+ border-top: 10px;
+}
+
+.community {
+ padding-top: 40px;
+}

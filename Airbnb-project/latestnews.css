@@ -32,10 +32,15 @@ color: black;
 
 .benefits {
  padding-left: 80px;
+ width: 50%;
+}
+
+.benefits p {
+ font-size: 20px;
 }
 
 .scrollableRow {
- border-radius: 12px;
+ border-radius: 25px;
  display: inline-block;
  overflow-x: scroll;
 }
