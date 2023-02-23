@@ -27,7 +27,7 @@ color: black;
 
 .icons {
  width: 20px;
- height: 20px;
+ height: 40px;
 }
 
 .benefits {
@@ -38,6 +38,18 @@ color: black;
  border-radius: 12px;
  display: inline-block;
  overflow-x: scroll;
+}
+
+.tips {
+ padding-top: 40px;
+}
+
+.tips a {
+ font-size: 35px;
+}
+
+.tips h5 {
+ padding-top: 15px;
 }
 
 
