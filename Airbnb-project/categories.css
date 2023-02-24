@@ -11,5 +11,25 @@
 }
 
 .community {
- padding-top: 40px;
+ padding: 125px;
+}
+
+.news {
+ display: inline-block;
+ margin: 40px;
+}
+
+.more {
+ border-radius: 10%;
+}
+
+.disclaimer {
+ padding-top: 30px;
+ width: 50%
+}
+
+.copyright {
+ padding-top: 30px;
+ width: 100%;
+ text-align: left;
 }
