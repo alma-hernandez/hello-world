@@ -8,6 +8,7 @@
  height: 15px;
  border-radius: 35%;
  border-top: 10px;
+ margin-bottom: 40px;
 }
 
 .news {
@@ -33,6 +34,13 @@
  display:block;
  width: 100%;
  border-radius: 5%;
- margin: none;
+ margin-bottom: 10px;
 }
 
+.article-text {
+ color: black;
+}
+
+.news-date {
+ margin-bottom: 10px;
+}
