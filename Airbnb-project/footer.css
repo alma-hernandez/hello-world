@@ -1,6 +1,13 @@
 
+.btn-more {
+ border-radius: 10%;
+ background-color: white;
+ padding: 7px 22px;
+}
 
 .footer {
  display: inline-block;
 }
+
+
 

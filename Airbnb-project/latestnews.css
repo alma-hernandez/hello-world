@@ -38,10 +38,9 @@ color: black;
  font-size: 20px;
 }
 
-.scrollableRow {
- border-radius: 25px;
- display: inline-block;
- overflow-x: scroll;
+.carousel {
+ width: 500px;
+ height: 400px;
 }
 
 .tips {
