@@ -1,7 +1,4 @@
 
-.font-newschool {
- 
-}
 
 .navbar-brand {
  flex-grow: 1;
@@ -38,11 +35,12 @@ padding-top: 40px;
 }
 
 .rounded {
- border-radius: 10%!important;
+ border-radius: 2%!important;
 }
 
 .hero-title {
- padding-left: 30px;
+ padding-left: 120px;
+ padding-right: 100px;
  padding-top: 200px;;
  }
 

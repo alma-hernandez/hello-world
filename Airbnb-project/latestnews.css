@@ -1,7 +1,6 @@
 
 .latest-news {
- padding-left: 80px;
- padding-right: 80px;
+margin:0;
 }
 
 .col-6 {
@@ -11,18 +10,23 @@
 .follow-us {
  padding-top: 100px;
  padding-bottom: 25px;
+ float:right;
 }
 
 .flowers {
- border-radius: 10%;
+ border-radius: 5%;
+ float:left;
 }
 .travel-info {
  padding-bottom: 25px;
 }
 
 .articles {
-padding-left: 20px;
 color: black;
+font-weight: bold;
+margin-top: 15px;
+margin-bottom: 15px;
+padding-left: 20px;
 }
 
 .icons {
