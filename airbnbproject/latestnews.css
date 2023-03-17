@@ -1,0 +1,65 @@
+
+
+.flowers {
+ border-radius: 5%;
+ float:left;
+}
+.travel-info {
+ padding-bottom: 25px;
+}
+
+.flex-container {
+ margin:0%;
+ display: inline-block;
+}
+
+.articles {
+color: black;
+font-weight: bold;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+.headline {
+ display: block;
+ margin-top: 20px;
+}
+
+.icons {
+ width: 20px;
+ height: 40px;
+}
+
+.benefits {
+ padding-left: 80px;
+}
+
+.benefits p {
+ font-size: 20px;
+}
+
+.swiper-wrapper {
+ height: 500px;
+ width: 1900px;
+ overflow-y: hidden;
+ overflow-x: scroll;
+ white-space: nowrap;
+ background: linear-gradient(white, black)
+}
+
+.swipe-images {
+ height: 35opx;
+ width: 500px;
+ border-radius: 5%;
+ display: inline-block;
+ margin: 10px;
+}
+
+.date {
+ padding-top: 30px;
+ padding-left: 500px;
+font-size: x-large;
+ color: white;
+}
+
+

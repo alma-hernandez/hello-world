@@ -2,6 +2,10 @@
  margin-top: 35px;
 }
 
+.additional-articles {
+ font-weight: bold;
+}
+
 .categories button {
  display: inline-block;
  padding: 20px;
