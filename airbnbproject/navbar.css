@@ -1,13 +1,4 @@
 
-
-.navbar-brand {
- flex-grow: 1;
-}
-
-.navbar-brand {
- font-weight: bold;
-}
-
 .navbar-brand img {
  height: 40px;
 }
@@ -16,33 +7,9 @@
  font-weight: bold;
 }
 
-.nav-item {
-padding-left: 10px;
-padding-right: 10px;
-}
-
-.navbar-nav {
-text-align: right;
-}
-
-.btn {
- flex-grow: 1;
- margin: 0;
-}
-
 .hero {
 padding-top: 40px;
 }
-
-.rounded {
- border-radius: 2%!important;
-}
-
-.hero-title {
- padding-left: 120px;
- padding-right: 100px;
- padding-top: 200px;;
- }
 
  .hero-title a {
   color: black;
@@ -51,12 +18,6 @@ padding-top: 40px;
  .hero-title a:hover {
   text-decoration: underline;
  }
-
-.hero-image {
- margin:0%;
- padding:0%;
- position: relative;
-} 
 
  .read-more {
   background-image: linear-gradient(90deg,#e61e4d 1.83%,#e31c5f 50.07%,#d70466 96.34%);
