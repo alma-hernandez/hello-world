@@ -37,3 +37,10 @@
 body {
  font-family: Cereal;
 }
+.container-xl {
+ max-width: 1300px;
+}
+
+.img-fluid {
+ width: 100%;
+}

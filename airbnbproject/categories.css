@@ -6,19 +6,6 @@
  font-weight: bold;
 }
 
-.categories button {
- display: inline-block;
- padding: 20px;
- height: 15px;
- border-radius: 10%;
- border-top: 10px;
- margin-bottom: 40px;
-}
-
-.news {
- display: inline-block;
-}
-
 .more {
  border-radius: 5%;
 }
@@ -35,10 +22,8 @@
 }
 
 .news img {
- display:block;
- width: 100%;
- border-radius: 2%;
- margin-bottom: 10px;
+ aspect-ratio: 1.5;
+ object-fit: cover;
 }
 
 .article-text {
@@ -47,4 +32,10 @@
 
 .news-date {
  margin-bottom: 10px;
+}
+
+.btn-more {
+ border-radius: 10%;
+ background-color: white;
+ padding: 7px 22px;
 }
