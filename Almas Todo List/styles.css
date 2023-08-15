@@ -1,4 +1,6 @@
-h1 {
+.title {
     background-color: aqua;
     font-family: fantasy;
-}
+    font-size: 60px;
+    height: 100px;
+}   
