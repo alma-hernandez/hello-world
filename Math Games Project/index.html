@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alma's Math Games</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>MATH GAMES!</h1>
+    </header>
+
+    <main>
+        <h3>Begin by clicking "Generate Random Numbers."</h3>
+        <h4>You have ten seconds to type in your answer in the answer field. Hurry! Hurry!</h4>
+        <section>
+            <p><span id="randomNumber1"></span></p>
+            <p><span id="randomNumber2"></span></p>
+        </section>
+        <section>
+            <div>
+                <button onclick="generateRandomNumbers()">Generate Random Numbers</button>
+        <span id="randomNumber1"></span><span class="operator"> + </span><span id="randomNumber2"></span> = 
+        <input type="number" id="userAnswer">
+        <button onclick="calculateAndDisplaySum()">Check Answer</button>
+        <p id="result"></p>
+        <p id="timer"></p>
+        <p id="tally">Correct Answers: <span id="correctTally">0</span></p>
+    </div>
+    <div>
+    </div>
+    </main>
+</body>
+
+</html>
