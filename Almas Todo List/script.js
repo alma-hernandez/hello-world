@@ -7,16 +7,17 @@ $(document).ready(function () {
             success: function (response, textStatus) {
                 $('#todo-list').empty();
                 response.tasks.forEach(function (task) {
-                    $('#todo-list').append('<div class="row"><p class="col-xs-8">' + task.content + '</p><button class="delete" data-id="' + task.id + '">Delete</button><input type="checkbox" class="mark-complete" data-id="' + task.id + '"' + (task.completed ? 'checked' : '') + '>');
+                    $('#todo-list').append('<div class="row"><p class="col-xs-8">' + task.content + '</p><button class="delete rounded" data-id="' + task.id + '">Delete</button><input type="checkbox" class="mark-complete" data-id="' + task.id + '"' + (task.completed ? 'checked' : '') + '>');
                 });
             },
             error: function (request, textStatus, errorMessage) {
                 console.log(errorMessage);
             }
         });
-    };
+    }
 
     var createTask = function () {
+        var newTaskContent = $('#new-task-content').val().toUpperCase(); // Convert to uppercase
         $.ajax({
             type: 'POST',
             url: 'https://fewd-todolist-api.onrender.com/tasks?api_key=290',
@@ -24,8 +25,8 @@ $(document).ready(function () {
             dataType: 'json',
             data: JSON.stringify({
                 task: {
-                    content: $('#new-task-content').val()
-                }
+                    content: newTaskContent // Use the uppercase content
+            }
             }),
             success: function (response, textStatus) {
                 $('#new-task-content').val('');
@@ -35,7 +36,7 @@ $(document).ready(function () {
                 console.log(errorMessage);
             }
         });
-    };
+    }
 
     $('#create-task').on('submit', function (e) {
         e.preventDefault();
@@ -55,9 +56,9 @@ $(document).ready(function () {
         });
     }
 
-    $(document).on('click', '.delete', function () {
-        console.log($(this).data('id'))
-    });
+    $(document).on('click', '.delete', function () {	
+        deleteTask($(this).data('id'));	
+      });
 
     var markTaskComplete = function (id) {
         $.ajax({
