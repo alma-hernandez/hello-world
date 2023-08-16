@@ -1,7 +1,8 @@
-
 let timerInterval;
 
 function generateRandomNumbers() {
+    document.getElementById("userAnswer").value = "";
+    document.getElementById("result").innerHTML = "";
     const newRandomNumber1 = Math.floor(Math.random() * 50) + 1;
     const newRandomNumber2 = Math.floor(Math.random() * 50) + 1;
 
@@ -23,9 +24,7 @@ function startTimer(seconds) {
 
         if (timeRemaining === 0) {
             clearInterval(timerInterval);
-            document.getElementById("result").innerHTML = "Time's up! Generate new numbers?";
-            // Show a confirmation dialog to generate new random numbers
-            const generateNewNumbers = confirm("Time's up! Generate new random numbers?");
+            const generateNewNumbers = confirm("Time's up! Generate new random numbers.");
             if (generateNewNumbers) {
                 generateRandomNumbers();
             } else {
@@ -54,9 +53,9 @@ function calculateAndDisplaySum() {
                 correctTally +=1;
                 document.getElementById("correctTally").textContent = correctTally; 
                 clearInterval(timerInterval);
+                document.getElementById("userAnswer").value = "";
             } else {
                 resultElement.innerHTML = "Incorrect. Generate new numbers.";
                 clearInterval(timerInterval);
             }
         }
-

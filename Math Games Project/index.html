@@ -11,29 +11,32 @@
 
 <body>
     <header>
-        <h1>MATH GAMES!</h1>
+        <h1><i>MATH GAMES!</i></h1>
     </header>
 
-    <main>
-        <h3>Begin by clicking "Generate Random Numbers."</h3>
-        <h4>You have ten seconds to type in your answer in the answer field. Hurry! Hurry!</h4>
-        <section>
-            <p><span id="randomNumber1"></span></p>
-            <p><span id="randomNumber2"></span></p>
-        </section>
-        <section>
-            <div>
-                <button onclick="generateRandomNumbers()">Generate Random Numbers</button>
-        <span id="randomNumber1"></span><span class="operator"> + </span><span id="randomNumber2"></span> = 
-        <input type="number" id="userAnswer">
-        <button onclick="calculateAndDisplaySum()">Check Answer</button>
-        <p id="result"></p>
-        <p id="timer"></p>
-        <p id="tally">Correct Answers: <span id="correctTally">0</span></p>
+    <div class="main">
+        <h3 class="begin">Begin by clicking "Generate Random Numbers."</h3>
+        <div class="instructions">
+            You have ten seconds to type in your answer in the answer field. Hurry! Hurry!
+            <img src="C:\Users\1984a\OneDrive\Desktop\hurry girl.png"></img>
+        </div>
+           <div class="addition">
+                <p><span id="randomNumber1"></span>+<span id="randomNumber2"></span></p>
+           </div>
+            
+                <div class="answer-line">
+                    <button onclick="generateRandomNumbers()">Generate Random Numbers</button>
+                    <span id="randomNumber1"></span><span class="operator"> + </span><span id="randomNumber2"></span>
+                    <input type="number" id="userAnswer">
+                    <button onclick="calculateAndDisplaySum()">Check Answer</button>
+                    <p id="result"></p>
+                    <p id="timer"></p>
+                </div>
+                <p class="container tally-line" id="tally">Correct Answers: <span id="correctTally">0</span></p>
+                <div>
+                </div>
+        </div>
     </div>
-    <div>
-    </div>
-    </main>
 </body>
 
 </html>

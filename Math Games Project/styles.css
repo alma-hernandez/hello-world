@@ -1,3 +1,24 @@
-.operator {
-    display: none;
+html {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+header {
+    background-color: chartreuse;
+    font-size: 85px;
+    text-align: center;
+}
+
+.main {
+    text-align: center;
+    font-size: 35px;
+}
+
+.begin {
+    font-size: 65px;
+}
+
+.instructions img {
+    width: 95px;
+    height: 115px;
+    margin-left: 25px;
 }
