@@ -15,7 +15,7 @@ const newElement = React.createElement(
         onClick: () => { console.log('clicked');},
         style: { color: 'blue'}
     },
-        'this is a paragraphs blah blah blah'
+        'this is a paragraphs yaaaaaaaay'
 );
 
 const container = document.getElementById('root');
