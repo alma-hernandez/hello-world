@@ -34,3 +34,19 @@ const container4 = document.getElementById('practice2');
 const practice2 = ReactDOM.createRoot(container4);
 practice2.render(newElement);
 
+document.querySelectorAll('.button')
+  .forEach(domContainer => {
+    const messageId = parseInt(domContainer.dataset.messageId);
+    const root = ReactDOM.createRoot(domContainer);
+    
+    root.render(
+      React.createElement(
+        'button',
+        {
+          onClick: () => { console.log(`liked message: ${messageId}`); }
+        },
+        'Like'
+      )
+    )
+  })
+
