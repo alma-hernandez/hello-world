@@ -1,4 +1,5 @@
-const element = <h1>Hello World!</h1>;
+const name = 'John';
+const element = <h1>Hello {name}</h1>;
 
 const container = document.getElementById('root');
 const root = ReactDOM.createRoot(container);
