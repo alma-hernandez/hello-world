@@ -1,0 +1,47 @@
+#title {
+    background-color: aqua;
+    font-family: fantasy;
+    font-size: 75px;
+    height: 100px;
+    text-align: center; /* To center the text horizontally */
+    line-height: 100px; /* To vertically center the text within the container */
+    margin: 0; /* To remove default margin from the h2 element */
+    padding: 0; /* To remove default padding from the h2 element */
+    width: 100%; /* To make sure the title takes the full width of the container */
+}
+
+.logo-img {
+    max-width: 80px;
+    margin-left: 30px; /* Add some space between the text and the image */
+}
+
+#todo-list {
+    font: fantasy; 
+    font-size: 30px;
+    margin-top: 40px;
+    padding-left: 100px;
+    color: blue;
+}
+
+.rounded {
+    margin-right: 20px;
+    border-radius: 10px; /* Adjust the value to control the roundness */
+}
+
+.mark-complete {
+    transform: scale(1.5); /* Adjust the scale factor as needed */
+}
+
+#new-task-content {
+    font: fantasy; 
+    font-size: 30px;
+    margin-top: 40px;
+    text-align: center;
+    color: red;
+}
+
+#create {
+    border-radius: 10px;
+    font-size: 25px;
+    color: blueviolet;
+}
