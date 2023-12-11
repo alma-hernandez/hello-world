@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Name() {
+const Name = () => {
  const [name, setName] = useState('');
  const [namesList, setNamesList] = useState([]);
 
