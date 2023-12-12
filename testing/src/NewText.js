@@ -15,7 +15,7 @@ const Name = () => {
  return (
   <div>
    <form onSubmit={handleNameSubmit}>
-  <p>New person's name is {name || 'Marsha'}.</p>
+  <p>New person's name is {name  || "Marsha"}.</p>
   <input
   type= "text"
   value = {name}
