@@ -1,139 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shopping List App</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link href="custom.css" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="application.js"></script>
-</head>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script src="js/application.js"></script>
 
-<body>
-  <div class="container">
-    <header id="title">HEB GROCERY LIST</header>
-  </div>
-
-  <div class="container shopping_list">
-    <div class="row column_names">
-      <div class="col-2">ITEM</div>
-      <div class="col-2">PRICE</div>
-      <div class="col-2">QUANTITY</div>
-      <div class="col-2">REMOVE</div>
-      <div class="col-2">TOTAL</div>
-    </div>
-  </div>
-  <div class="container shopping_list">
-    <div class="row list_columns">
-      <div class="col-2 item">MILK</div>
-      <div class="col-2 price">$3</div>
-      <div class="col-2">
-        <label>Qty</label>
-        <input type="number" class="quantity" onchange="calculateTotal(this)">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+  </head>
+  <body>
+    <heading>HEB SHOPPING LIST</heading>
+      <div class= "container">
+        <div class="row">
+          <div class="col-4">item name</div>
+          <div class="col-4">price</div>
+          <div class="col-4">quantity</div>
+        </div>
       </div>
-      <div class="col-2">
-        <button onclick="removeRow(this)">REMOVE</button>
-      </div>
-      <div class="col-2">
-        <label>TOTAL $</label>
-        <input type="number" class="total" readonly>
-      </div>
-    </div>
-    <div class="row list_columns">
-      <div class="col-2 item">GROUND BEEF</div>
-      <div class="col-2 price">$10</div>
-      <div class="col-2">
-        <label>Qty</label>
-        <input type="number" class="quantity" onchange="calculateTotal(this)">
-      </div>
-      <div class="col-2">
-        <button onclick="removeRow(this)">REMOVE</button>
-      </div>
-      <div class="col-2">
-        <label>TOTAL $</label>
-        <input type="number" class="total" readonly>
-      </div>
-    </div>
-    <div class="row list_columns">
-      <div class="col-2 item">CHIPS</div>
-      <div class="col-2 price">$2</div>
-      <div class="col-2">
-        <label>Qty</label>
-        <input type="number" class="quantity" onchange="calculateTotal(this)">
-      </div>
-      <div class="col-2">
-        <button onclick="removeRow(this)">REMOVE</button>
-      </div>
-      <div class="col-2">
-        <label>TOTAL $</label>
-        <input type="number" class="total" readonly>
-      </div>
-    </div>
-    <div class="row list_columns">
-      <div class="col-2 item">SODA</div>
-      <div class="col-2 price">$10</div>
-      <div class="col-2">
-        <label>Qty</label>
-        <input type="number" class="quantity" onchange="calculateTotal(this)">
-      </div>
-      <div class="col-2">
-        <button onclick="removeRow(this)">REMOVE</button>
-      </div>
-      <div class="col-2">
-        <label>TOTAL $</label>
-        <input type="number" class="total" readonly>
-      </div>
-    </div>
-    <div class="row list_columns">
-      <div class="col-2 item">EGGS</div>
-      <div class="col-2 price">$3</div>
-      <div class="col-2">
-        <label>Qty</label>
-        <input type="number" class="quantity" onchange="calculateTotal(this)">
-      </div>
-      <div class="col-2">
-        <button onclick="removeRow(this)">REMOVE</button>
-      </div>
-      <div class="col-2">
-        <label>TOTAL $</label>
-        <input type="number" class="total" readonly>
-      </div>
-    </div>
-    <div class="row list_columns">
-      <div class="col-2 item">PICKLES</div>
-      <div class="col-2 price">$3</div>
-      <div class="col-2">
-        <label>Qty</label>
-        <input type="number" class="quantity" onchange="calculateTotal(this)">
-      </div>
-      <div class="col-2">
-        <button onclick="removeRow(this)">REMOVE</button>
-      </div>
-      <div class="col-2">
-        <label>TOTAL $</label>
-        <input type="number" class="total" readonly>
-      </div>
-    </div>
-  </div>
-
-  <div class="container add_items">
-    <label>Item Name</label>
-    <input type="text" class="input-item">
-    <label>Price $</label>
-    <input type="number" class="input-price">
-    <button onclick="addItem()">Add</button>
-  </div>
-
-  <div class="container">
-    <div class="row cart_total">
-      <label id="cartTotal">TOTAL PRICE $</label>
-      <input type="text" class="cartSum" id="inputSum">
-    </div>
-  </div>
-
-</body>
-
+  </body>
 </html>
